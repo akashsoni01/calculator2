@@ -25,6 +25,14 @@ class ViewController: UIViewController {
             _display.text = _display.text! + "."
         }
     }
+    //make a function that dose't allow more zero at zero value
+    // if Double(display)==0{display = 0}
+    func stopeMessZeros(_ sender:UIButton){
+        if display==0.0{
+            _display.text = 0
+            userIsInTheMiddleOfTyping = false
+        }
+    }
     
     @IBAction func tuchOperation(_ sender: UIButton) {
         
