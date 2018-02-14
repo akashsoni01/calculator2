@@ -12,6 +12,7 @@ class CustomLabel: UILabel {
 
 
     override func draw(_ rect: CGRect) {
+        print("hello world")
         
 
     }
