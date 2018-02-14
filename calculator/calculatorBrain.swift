@@ -7,14 +7,19 @@
 //
 
 import Foundation
-func fact(_ n:Double) -> Double {
+
+private func fact(_ n:Double) -> Double {
+    if n < 0 {
+        return 0
+    }
     if n == 1 {
         return 1
     }
     if n == 0 {
         return 1
     }else{
-        return fact(n-1)*n
+        
+        return fact(n-1) * n
     }
 }
 struct  CalculatorBrain {
@@ -33,14 +38,18 @@ struct  CalculatorBrain {
         "log" : Operation.unaryOperation(log),
         "!" : Operation.unaryOperation(fact),
         "±" : Operation.unaryOperation({-$0}),
-        "+" : Operation.binaryOperation({$0 + $1}),
-        "×" : Operation.binaryOperation({$0 * $1}),
-        "-" : Operation.binaryOperation({$0 - $1}),
-        "÷" : Operation.binaryOperation({$0 / $1}),
+        "+" : Operation.binaryOperation(+),
+        "×" : Operation.binaryOperation(*),
+        "-" : Operation.binaryOperation(-),
+        "÷" : Operation.binaryOperation(/),
         "%" : Operation.binaryOperation({$0.truncatingRemainder(dividingBy:$1)}),
         "^" : Operation.binaryOperation(pow),
         "=" : Operation.equals
     ]
+    
+    mutating func addUnaryOperation(named symbol:String,function operation:@escaping ((Double)->Double)){
+        operations[symbol] = Operation.unaryOperation(operation)
+    }
     mutating func setOperand(_ operand:Double){
         accumlator = operand
     }
@@ -65,7 +74,7 @@ struct  CalculatorBrain {
                 if performpandingBinaryOperation != nil && accumlator != nil{
                     performPandingBinaryOperationFunc()
                 }
-                
+                break
             }
         }
         
@@ -73,6 +82,7 @@ struct  CalculatorBrain {
     private var performpandingBinaryOperation:performPandingBinaryOperation?
     mutating func performPandingBinaryOperationFunc(){
             accumlator = performpandingBinaryOperation?.performWith(secondOperand: accumlator!)
+        performpandingBinaryOperation = nil
     }
     private struct performPandingBinaryOperation {
          let function : (Double,Double) -> Double

@@ -50,4 +50,12 @@ class ViewController: UIViewController {
             userIsInTheMiddleOfTyping = true
         }
     }
+    
+    override func viewDidLoad() {
+        brain.addUnaryOperation(named: "✅"){
+            //[weak weakSelf = self] in
+            self._display.textColor = UIColor.green
+            return sqrt($0)
+        }
+    }
 }

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,62 +19,73 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OBI-sz-IOk">
-                                <rect key="frame" x="16" y="28" width="288" height="532"/>
+                                <rect key="frame" x="16" y="52" width="343" height="718"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="_display" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="SyC-9A-FHh">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="80.5"/>
-                                        <color key="backgroundColor" red="0.96208995580673218" green="0.84415489435195923" blue="0.8575514554977417" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Pz0-xW-VuN">
-                                        <rect key="frame" x="0.0" y="90.5" width="288" height="80"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="h0p-bT-LX8">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="111.33333333333333"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digitπ" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eni-Gq-ndg">
-                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="80"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="π"/>
-                                                <connections>
-                                                    <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BC0-Ye-2MV"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit√" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCV-qj-ER4">
-                                                <rect key="frame" x="59.5" y="0.0" width="49.5" height="80"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="_display" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="SyC-9A-FHh">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="111.33333333333333"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Pz0-xW-VuN">
+                                        <rect key="frame" x="0.0" y="121.33333333333334" width="343" height="111.33333333333334"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit√" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCV-qj-ER4" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="60.666666666666664" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="√"/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="amJ-gg-cq7"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="e" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLI-3M-fI9">
-                                                <rect key="frame" x="119" y="0.0" width="50" height="80"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digitπ" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eni-Gq-ndg" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="70.666666666666671" y="0.0" width="60.666666666666671" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="✅"/>
+                                                <connections>
+                                                    <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BC0-Ye-2MV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="e" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLI-3M-fI9" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="141.33333333333334" y="0.0" width="60.333333333333343" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="e"/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nNq-P4-g7U"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="+-" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJH-q1-sFD">
-                                                <rect key="frame" x="179" y="0.0" width="49.5" height="80"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="+-" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJH-q1-sFD" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="211.66666666666666" y="0.0" width="60.666666666666657" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="±"/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N8j-MM-lWK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="%" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsA-hw-B13">
-                                                <rect key="frame" x="238.5" y="0.0" width="49.5" height="80"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="%" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsA-hw-B13" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="282.33333333333331" y="0.0" width="60.666666666666686" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="%"/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DG2-3i-Knq"/>
@@ -83,47 +94,52 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dpJ-iJ-b42">
-                                        <rect key="frame" x="0.0" y="180.5" width="288" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="242.66666666666671" width="343" height="111.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit7" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHO-Av-2Zb">
-                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit7" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHO-Av-2Zb" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="60.666666666666664" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="7"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zg2-Na-aq4"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit8" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1O6-Bz-9FY">
-                                                <rect key="frame" x="59.5" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit8" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1O6-Bz-9FY" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="70.666666666666671" y="0.0" width="60.666666666666671" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="8"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CaW-tv-ozg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit9" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZX-4z-Dwi">
-                                                <rect key="frame" x="119" y="0.0" width="50" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit9" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZX-4z-Dwi" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="141.33333333333334" y="0.0" width="60.333333333333343" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="9"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gfn-F3-GYk"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="÷" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH0-lf-UiO">
-                                                <rect key="frame" x="179" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="÷" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uH0-lf-UiO" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="211.66666666666666" y="0.0" width="60.666666666666657" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="÷"/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XDM-WS-7PM"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="^" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRU-bA-Psb">
-                                                <rect key="frame" x="238.5" y="0.0" width="49.5" height="80.5"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="^" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRU-bA-Psb" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="282.33333333333331" y="0.0" width="60.666666666666686" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="^"/>
                                                 <connections>
@@ -133,47 +149,52 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Kab-uA-wlK">
-                                        <rect key="frame" x="0.0" y="271" width="288" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="364" width="343" height="111.33333333333331"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuY-0U-MAK">
-                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuY-0U-MAK" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="60.666666666666664" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="4"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xcm-yN-2Dr"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX6-sj-T7q">
-                                                <rect key="frame" x="59.5" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX6-sj-T7q" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="70.666666666666671" y="0.0" width="60.666666666666671" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="5"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0D7-bi-1FN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit6" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrl-nG-trk">
-                                                <rect key="frame" x="119" y="0.0" width="50" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit6" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrl-nG-trk" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="141.33333333333334" y="0.0" width="60.333333333333343" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="6"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="POn-db-r9x"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="×" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7t-rI-6Wn">
-                                                <rect key="frame" x="179" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="×" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7t-rI-6Wn" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="211.66666666666666" y="0.0" width="60.666666666666657" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="×"/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TyG-VE-dxP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="log" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qna-6T-za3">
-                                                <rect key="frame" x="238.5" y="0.0" width="49.5" height="80.5"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="log" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qna-6T-za3" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="282.33333333333331" y="0.0" width="60.666666666666686" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="log"/>
                                                 <connections>
@@ -183,47 +204,52 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xLV-30-ceZ">
-                                        <rect key="frame" x="0.0" y="361.5" width="288" height="80"/>
+                                        <rect key="frame" x="0.0" y="485.33333333333331" width="343" height="111.33333333333331"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJd-4p-hN9">
-                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJd-4p-hN9" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="60.666666666666664" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="1"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cz4-5E-fnz"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIb-BU-JH1">
-                                                <rect key="frame" x="59.5" y="0.0" width="49.5" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIb-BU-JH1" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="70.666666666666671" y="0.0" width="60.666666666666671" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="2"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r9K-re-I8Y"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTE-ul-f4G">
-                                                <rect key="frame" x="119" y="0.0" width="50" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTE-ul-f4G" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="141.33333333333334" y="0.0" width="60.333333333333343" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="3"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SUu-Ox-NbJ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="-" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5j-Yk-9Rl">
-                                                <rect key="frame" x="179" y="0.0" width="49.5" height="80"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="-" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5j-Yk-9Rl" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="211.66666666666666" y="0.0" width="60.666666666666657" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="-"/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zTX-7o-E7P"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="!" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAe-I1-OEs">
-                                                <rect key="frame" x="238.5" y="0.0" width="49.5" height="80"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="!" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAe-I1-OEs" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="282.33333333333331" y="0.0" width="60.666666666666686" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="!"/>
                                                 <connections>
@@ -233,47 +259,52 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fry-ex-R0K">
-                                        <rect key="frame" x="0.0" y="451.5" width="288" height="80.5"/>
+                                        <rect key="frame" x="0.0" y="606.66666666666663" width="343" height="111.33333333333337"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="." contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2l1-Mx-DFZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="." contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2l1-Mx-DFZ" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="60.666666666666664" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="."/>
                                                 <connections>
                                                     <action selector="dotButtonTuch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uRq-T9-9bK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit0" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a31-1L-isz">
-                                                <rect key="frame" x="59.5" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="digit0" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a31-1L-isz" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="70.666666666666671" y="0.0" width="60.666666666666671" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="0"/>
                                                 <connections>
                                                     <action selector="digit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jsz-pB-0ME"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="=" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1U-Fp-awd">
-                                                <rect key="frame" x="119" y="0.0" width="50" height="80.5"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="=" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1U-Fp-awd" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="141.33333333333334" y="0.0" width="60.333333333333343" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="="/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lil-hh-NfC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="+" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1V9-b6-9qp">
-                                                <rect key="frame" x="179" y="0.0" width="49.5" height="80.5"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="+" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1V9-b6-9qp" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="211.66666666666666" y="0.0" width="60.666666666666657" height="111.33333333333333"/>
                                                 <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="+"/>
                                                 <connections>
                                                     <action selector="tuchOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ECw-Z8-og1"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="cos" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRF-vi-vqL">
-                                                <rect key="frame" x="238.5" y="0.0" width="49.5" height="80.5"/>
-                                                <color key="backgroundColor" red="0.66547697782516479" green="0.84140413999557495" blue="0.92971545457839966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="cos" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRF-vi-vqL" customClass="CustomButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="282.33333333333331" y="0.0" width="60.666666666666686" height="111.33333333333333"/>
+                                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="tintColor" red="0.38277125358581543" green="0.2243635356426239" blue="0.78889638185501099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="cos"/>
                                                 <connections>
@@ -285,7 +316,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="OBI-sz-IOk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="8JW-cW-Vjw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OBI-sz-IOk" secondAttribute="trailing" id="fcS-d5-sak"/>
@@ -299,7 +330,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-99.375" y="122.53521126760563"/>
+            <point key="canvasLocation" x="-1048" y="-383"/>
         </scene>
     </scenes>
 </document>

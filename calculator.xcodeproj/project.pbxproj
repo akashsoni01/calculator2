@@ -12,6 +12,7 @@
 		1211C22D1FC946CB00FA50CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1211C22B1FC946CB00FA50CF /* Main.storyboard */; };
 		1211C22F1FC946CB00FA50CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1211C22E1FC946CB00FA50CF /* Assets.xcassets */; };
 		1211C2321FC946CB00FA50CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1211C2301FC946CB00FA50CF /* LaunchScreen.storyboard */; };
+		12321DF420187D15001A010F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12321DF320187D15001A010F /* CustomButton.swift */; };
 		12F1F4031FC95B7400D30398 /* calculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F1F4021FC95B7400D30398 /* calculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		1211C22E1FC946CB00FA50CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1211C2311FC946CB00FA50CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1211C2331FC946CB00FA50CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12321DF320187D15001A010F /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		12F1F4021FC95B7400D30398 /* calculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				1211C2271FC946CB00FA50CF /* AppDelegate.swift */,
+				12F1F4021FC95B7400D30398 /* calculatorBrain.swift */,
 				1211C2291FC946CB00FA50CF /* ViewController.swift */,
+				12321DF320187D15001A010F /* CustomButton.swift */,
 				1211C22B1FC946CB00FA50CF /* Main.storyboard */,
 				1211C22E1FC946CB00FA50CF /* Assets.xcassets */,
 				1211C2301FC946CB00FA50CF /* LaunchScreen.storyboard */,
 				1211C2331FC946CB00FA50CF /* Info.plist */,
-				12F1F4021FC95B7400D30398 /* calculatorBrain.swift */,
 			);
 			path = calculator;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12321DF420187D15001A010F /* CustomButton.swift in Sources */,
 				12F1F4031FC95B7400D30398 /* calculatorBrain.swift in Sources */,
 				1211C22A1FC946CB00FA50CF /* ViewController.swift in Sources */,
 				1211C2281FC946CB00FA50CF /* AppDelegate.swift in Sources */,
