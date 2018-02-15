@@ -11,7 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     private var brain = CalculatorBrain()
     var userIsInTheMiddleOfTyping=false
-    @IBOutlet weak var _display: UILabel!
+    @IBOutlet weak var _display: UILabel!{
+        didLoad(){
+            stopeMessZeros()
+        }
+    }
+    
     var display:Double{
         get{
             return Double(_display.text!)!
@@ -27,7 +32,7 @@ class ViewController: UIViewController {
     }
     //make a function that dose't allow more zero at zero value
     // if Double(display)==0{display = 0}
-    func stopeMessZeros(_ sender:UIButton){
+    func stopeMessZeros(){
         if display==0.0{
             _display.text = 0
             userIsInTheMiddleOfTyping = false
